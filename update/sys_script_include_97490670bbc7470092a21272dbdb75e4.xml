@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_aj_temporary.CreatePackage1</api_name>
+        <client_callable>true</client_callable>
+        <description>CreatePackage1</description>
+        <name>CreatePackage1</name>
+        <script><![CDATA[var CreatePackage1 = Class.create();
+CreatePackage1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getRestMessage: function() {
+		gs.info("*TRACE* CreatePackage1 Start");
+		var requestBody;
+		var responseBody;
+		var status;
+		var sm;
+		try{
+			sm = new sn_ws.RESTMessageV2("createPackage1", "get");
+// 			sm.setBasicAuth("ibm_ban_t","aflacgmt");
+// 			sm.setMIDServer('MIDServer1');
+			sm.setStringParameter("ZddServer",sys_parm_zdd_server);
+			sm.setStringParameter("ZddChangeMan",sys_parm_zdd_change_man);
+			sm.setStringParameter("ChangeManLogin",sys_parm_change_man_login);
+			sm.setStringParameter("ChangeManPassword",sys_parm_change_man_password);
+			sm.setStringParameter("ItemID",sys_parm_item_id);
+			response = sm.execute();
+			response.waitForResponse(20);
+			responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+			status = response.getStatusCode();
+		} catch(ex) {
+			responseBody = ex.getMessage();
+			gs.info("Request Body: " + requestBody);
+			status = '500';
+		} finally {
+			requestBody = sm ? sm.getRequestBody():null;
+		}
+		//JSON String Representation of Clothing items
+		var parser = new global.JSON();
+		var obj = parser.decode(responseBody);
+		gs.info('The first name is '  + obj.name);
+			
+// 		var rec = new GlideRecord('x_138181_sbmcreate_sbm_package') ;
+// 		rec.initialize();
+// 		rec.u_work_request_id = '20171108-001'; 
+// 		rec.insert();
+		
+		gs.info("Request Body: " + requestBody);
+		gs.info("Response: " + responseBody);
+		gs.info("HTTP Status: " + status);
+		
+		return responseBody;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ibm_ban_ta</sys_created_by>
+        <sys_created_on>2017-12-12 23:23:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>97490670bbc7470092a21272dbdb75e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CreatePackage1</sys_name>
+        <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
+        <sys_update_name>sys_script_include_97490670bbc7470092a21272dbdb75e4</sys_update_name>
+        <sys_updated_by>ibm_ban_ta</sys_updated_by>
+        <sys_updated_on>2017-12-12 23:25:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

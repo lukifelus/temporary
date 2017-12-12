@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_18" table="x_aj_temporary_table1" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_18</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CMNU - A04 - ATLAS/DALA DP(for Training)</label>
+            <language>en</language>
+            <name>x_aj_temporary_table1</name>
+            <sequence>0</sequence>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f47d5a0bb8f070092a21272dbdb758e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:37</sys_updated_on>
+            <value>CMNU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_18</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_aj_temporary_table1</name>
+            <sequence>1</sequence>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e347d5a0bb8f070092a21272dbdb759d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:37</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_18</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_aj_temporary_table1</name>
+            <sequence>2</sequence>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af47d5a0bb8f070092a21272dbdb759e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:37</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_18</element>
+            <name>x_aj_temporary_table1</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e747d5a0bb8f070092a21272dbdb7590</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_string_18</sys_name>
+            <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
+            <sys_update_name>sys_choice_x_aj_temporary_table1_u_string_18</sys_update_name>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

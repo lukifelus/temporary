@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="システム" section_id="4d4755a0bb8f070092a21272dbdb75c7" sys_domain="global" table="x_aj_temporary_table1" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_25</element>
+            <position>0</position>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:39</sys_created_on>
+            <sys_id>0c57d5a0bb8f070092a21272dbdb75e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_aj_temporary_table1" sys_domain="global" view="Default view">4d4755a0bb8f070092a21272dbdb75c7</sys_ui_section>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_24</element>
+            <position>1</position>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:39</sys_created_on>
+            <sys_id>8c57d5a0bb8f070092a21272dbdb75e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_aj_temporary_table1" sys_domain="global" view="Default view">4d4755a0bb8f070092a21272dbdb75c7</sys_ui_section>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:39</sys_created_on>
+            <sys_id>0057d5a0bb8f070092a21272dbdb75e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_aj_temporary_table1" sys_domain="global" view="Default view">4d4755a0bb8f070092a21272dbdb75c7</sys_ui_section>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_23</element>
+            <position>3</position>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:39</sys_created_on>
+            <sys_id>8057d5a0bb8f070092a21272dbdb75e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_aj_temporary_table1" sys_domain="global" view="Default view">4d4755a0bb8f070092a21272dbdb75c7</sys_ui_section>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>システム</caption>
+            <header>false</header>
+            <name>x_aj_temporary_table1</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-12 01:00:27</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d4755a0bb8f070092a21272dbdb75c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>システム</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
+            <sys_update_name>sys_ui_section_4d4755a0bb8f070092a21272dbdb75c7</sys_update_name>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-12 01:00:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
