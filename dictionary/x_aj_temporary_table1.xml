@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="table1" max_length="40" name="x_aj_temporary_table1" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="ChangeMan Login" mandatory="true" max_length="40" name="u_change_man_login" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="B12345" label="ChangeMan Login" mandatory="true" max_length="40" name="u_change_man_login" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ChangeMan Package ID" mandatory="true" max_length="40" name="u_change_man_package_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="ChangeMan Password" mandatory="true" max_length="40" name="u_change_man_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ChangeMan Password" max_length="40" name="u_change_man_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="CMNU" label="ChangeMan Server" max_length="40" name="u_change_man_server" type="string">
+            <choice>
+                <element label="CMNU - A04 0 ATLAS/DAL DP" sequence="0" value="CMNU"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="20171208-002" label="開発依頼番号" max_length="40" name="u_devrequest_no" type="string"/>
+        <element attributes="no_audit=true,no_sort=true" label="ChangeMan Password" max_length="65536" name="u_glide_encrypted_1" type="glide_encrypted"/>
+        <element attributes="edge_encryption_enabled=true" default="CMN003067" label="Item Id" max_length="40" name="u_item_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="20171207-102" label="開発依頼番号" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="本番登録担当" max_length="40" name="u_string_10" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="本番移行日" max_length="40" name="u_string_11" read_only="true" type="string"/>

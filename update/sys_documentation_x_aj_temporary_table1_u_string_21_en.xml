@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ibm_ban_ta</sys_created_by>
             <sys_created_on>2017-12-12 01:00:27</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>4d4755a0bb8f070092a21272dbdb75de</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Reasons for Reject</sys_name>

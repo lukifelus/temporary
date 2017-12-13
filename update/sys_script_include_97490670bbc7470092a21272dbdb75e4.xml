@@ -16,14 +16,15 @@ CreatePackage1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var status;
 		var sm;
 		try{
-			sm = new sn_ws.RESTMessageV2("createPackage1", "get");
-// 			sm.setBasicAuth("ibm_ban_t","aflacgmt");
-// 			sm.setMIDServer('MIDServer1');
-			sm.setStringParameter("ZddServer",sys_parm_zdd_server);
-			sm.setStringParameter("ZddChangeMan",sys_parm_zdd_change_man);
-			sm.setStringParameter("ChangeManLogin",sys_parm_change_man_login);
-			sm.setStringParameter("ChangeManPassword",sys_parm_change_man_password);
-			sm.setStringParameter("ItemID",sys_parm_item_id);
+			sm = new sn_ws.RESTMessageV2("createPackage1a", "get");
+// 			sm = new sn_ws.RESTMessageV2("createPackage1", "get");
+			sm.setBasicAuth("ibm_ban_t","aflacgmt");
+			sm.setStringParameter("ZddServer",this.getParameter('sysparm_zdd_server'));
+			sm.setStringParameter("ZddChangeMan",this.getParameter('sysparm_zdd_change_man'));
+			sm.setStringParameter("ChangeManLogin",this.getParameter('sysparm_change_man_login'));
+			sm.setStringParameter("ChangeManPassword",this.getParameter('sysparm_change_man_password'));
+			sm.setStringParameter("ItemID",this.getParameter('sysparm_item_id'));
+			sm.setMIDServer('MIDServer1');
 			response = sm.execute();
 			response.waitForResponse(20);
 			responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
@@ -38,7 +39,7 @@ CreatePackage1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		//JSON String Representation of Clothing items
 		var parser = new global.JSON();
 		var obj = parser.decode(responseBody);
-		gs.info('The first name is '  + obj.name);
+//		gs.info('The first name is '  + obj.name);
 			
 // 		var rec = new GlideRecord('x_138181_sbmcreate_sbm_package') ;
 // 		rec.initialize();
@@ -49,7 +50,8 @@ CreatePackage1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		gs.info("Response: " + responseBody);
 		gs.info("HTTP Status: " + status);
 		
-		return responseBody;
+//		return responseBody;
+		return "Create Package1 Ended.Response: "+　responseBody;
 	}
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
@@ -57,14 +59,14 @@ CreatePackage1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2017-12-12 23:23:43</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>97490670bbc7470092a21272dbdb75e4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>CreatePackage1</sys_name>
         <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
         <sys_update_name>sys_script_include_97490670bbc7470092a21272dbdb75e4</sys_update_name>
-        <sys_updated_by>ibm_ban_ta</sys_updated_by>
-        <sys_updated_on>2017-12-12 23:25:53</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-13 01:05:28</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -13,7 +13,7 @@
         <column_label>ChangeMan Login</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>B12345</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -48,7 +48,7 @@
         <sys_created_by>ibm_ban_ta</sys_created_by>
         <sys_created_on>2017-12-12 23:11:48</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>13f74a30bbc7470092a21272dbdb7506</sys_id>
+        <sys_id>719c4a3c4f034300489678e18110c711</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>ChangeMan Login</sys_name>
         <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
@@ -56,8 +56,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
         <sys_update_name>sys_dictionary_x_aj_temporary_table1_u_change_man_login</sys_update_name>
-        <sys_updated_by>ibm_ban_ta</sys_updated_by>
-        <sys_updated_on>2017-12-12 23:11:53</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-13 04:04:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
