@@ -17,7 +17,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">e2a8f286b900030092c0f528b97ebde5</super_class>
+        <super_class display_value="Task" name="task">41b2f2a74f113200838982818110c7db</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>ibm_ban_ta</sys_created_by>
         <sys_created_on>2017-12-12 00:04:54</sys_created_on>

@@ -48,7 +48,7 @@
         <sys_created_by>ibm_ban_ta</sys_created_by>
         <sys_created_on>2017-12-12 00:13:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b39c4a3c4f034300489678e18110c7a3</sys_id>
+        <sys_id>b1cdc741bb43870092a21272dbdb7570</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
         <sys_update_name>sys_dictionary_x_aj_temporary_table1_u_string_17</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-12-12 23:32:22</sys_updated_on>
+        <sys_updated_on>2017-12-13 22:55:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
