@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="table1" max_length="40" name="x_aj_temporary_table1" sizeclass="1" type="collection">
+    <element extends="task" label="table1" max_length="40" name="x_aj_temporary_table1" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" default="B12345" label="ChangeMan Login" mandatory="true" max_length="40" name="u_change_man_login" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ChangeMan Package ID" mandatory="true" max_length="40" name="u_change_man_package_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ChangeMan Password" max_length="40" name="u_change_man_password" type="string"/>
@@ -32,8 +32,8 @@
         <element attributes="edge_encryption_enabled=true" default="伊藤　直樹" label="開発リーダー" max_length="40" name="u_string_2" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reasons for Revert" max_length="40" name="u_string_20" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reasons for Reject" max_length="40" name="u_string_21" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="SERU" label="ZDD Server" max_length="40" name="u_string_23" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="CMNU" label="ZDD ChangeMan" max_length="40" name="u_string_24" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="SERU" label="ZDD Server" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="CMNU" label="ZDD ChangeMan" max_length="40" name="u_string_24" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="ATLU" label="ZMF Application" max_length="40" name="u_string_25" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="SCR002600:2017-12-07_ibm_itoh_nトレーニング用" label="サブタスク" max_length="40" name="u_string_26" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reasons for Back Out" max_length="40" name="u_string_27" read_only="true" type="string"/>

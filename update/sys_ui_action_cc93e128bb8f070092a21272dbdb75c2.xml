@@ -19,17 +19,19 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <name>CreatePackage</name>
-        <onclick>onClick()</onclick>
+        <onclick>createPackage1Kick()</onclick>
         <order>100</order>
-        <script><![CDATA[function onClick() {
+        <script><![CDATA[function createPackage1Kick() {
 	//show a loading dialog box so that people will know that we are busy
 	showLoadingDialog();
 	//alert('*TRACE* CreatePackage Start');
 	//Set up the Server-Side function call to sending through the MID Server
 	var ga = new GlideAjax('CreatePackage1');
 	ga.addParam('sysparm_name','getRestMessage');
-	ga.addParam('sysparm_zdd_server',g_form.getValue('u_change_man_server'));
-	ga.addParam('sysparm_zdd_change_man',g_form.getValue('u_change_man_package_id'));
+// 	ga.addParam('sysparm_zdd_server',g_form.getValue('u_change_man_server'));
+	ga.addParam('sysparm_zdd_server',g_form.getValue('u_string_23'));
+// 	ga.addParam('sysparm_zdd_change_man',g_form.getValue('u_change_man_package_id'));
+	ga.addParam('sysparm_zdd_change_man',g_form.getValue('u_string_24'));
 	ga.addParam('sysparm_change_man_login',g_form.getValue('u_change_man_login'));
 	ga.addParam('sysparm_change_man_password',g_form.getValue('u_change_man_password'));
 	ga.addParam('sysparm_item_id',g_form.getValue('u_devrequest_no'));
@@ -54,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc93e128bb8f070092a21272dbdb75c2</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>CreatePackage</sys_name>
         <sys_overrides/>
         <sys_package display_value="temporary" source="x_aj_temporary">a75a412cbb4f070092a21272dbdb7560</sys_package>
@@ -63,7 +65,7 @@
         <sys_scope display_value="temporary">a75a412cbb4f070092a21272dbdb7560</sys_scope>
         <sys_update_name>sys_ui_action_cc93e128bb8f070092a21272dbdb75c2</sys_update_name>
         <sys_updated_by>ibm_ban_ta</sys_updated_by>
-        <sys_updated_on>2017-12-14 07:29:50</sys_updated_on>
+        <sys_updated_on>2017-12-19 06:45:16</sys_updated_on>
         <table>x_aj_temporary_table1</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

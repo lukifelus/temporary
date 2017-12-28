@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="table2" max_length="40" name="x_aj_temporary_table2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Install From Time" max_length="40" name="u_install_from_time1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install To Time" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>
